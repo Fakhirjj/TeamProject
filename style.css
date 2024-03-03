@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .embed-responsive {
+    max-width: 640px; /* Set maximum width as needed */
+  }
