@@ -20,72 +20,95 @@
       .navbar-nav .nav-link {
         color: white !important;
       }
+      .col-md-3 {
+        margin-bottom: 20px;
+      }
+      .col-md-3 h2 {
+        white-space: nowrap;
+        display: inline;
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+      }
+      .row > .col-md-3 {
+        flex: 1;
+        max-width: 200px;
+        text-align: center;
+      }
+      .container{
+        height: 50vh;
+      }
   </style>
 </head>
 <body>
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand text-body-emphasis" href="index.html">Web3</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Topics
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="gaming.html">Gaming</a></li>
-              <li><a class="dropdown-item" href="security.html">Security</a></li>
-              <li><a class="dropdown-item" href="finance.html">Finance</a></li>
-              <li><a class="dropdown-item" href="decentralisation.html">Decentralisation</a></li>
-              <li><a class="dropdown-item" href="about.html">About</a></li>
-            </ul>
-          </li>
-
-        </ul>
-      </div>
+  <div class="container-fluid">
+    <a class="navbar-brand text-body-emphasis" href="index.html">Web3</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gaming.html">Gaming</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="security.html">Security</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="finance.html">Finance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="decentralisation.html">Decentralisation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 <div class="px-4 pt-5 my-5 text-center border-bottom">
     <h1 class="display-4 fw-bold text-body-emphasis">Meet the team</h1>
     <div class="col-lg-10 mx-auto">
       <p class="lead mb-4">As a dynamic quartet of computer science enthusiasts, we embarked on a thrilling journey to craft a compelling promotional piece on Web3. With just four weeks at our disposal, we pooled our diverse talents and unwavering passion for technology to deliver an innovative project that captures the essence of this cutting-edge concept.</p>
     </div>
-    <div style="max-height: 30vh;">
+    <div style="max-height: 0vh;">
     </div>
 </div>
-<div class="container">
+ <div class="container marketing">
+  <div class="container">
     <div class="row">
-      <div class="col-md-3 text-center justify-content-around">
-        <img src="fakhir.jpg" class="bd-placeholder-img rounded-circle img-fluid" width="160" height="160" role="img" aria-label="Placeholder" alt="Gaming">
-        <h2 class="fw-bold">Fakhir Jamil</h2>
-        <p>HR/PROJECT MANAGER</p>
+      <div class="col-md-3 text-center">
+        <img src="fakhir.jpg" class="bd-placeholder-img rounded-circle img-fluid" width="140" height="140" role="img" aria-label="Placeholder" alt="Gaming">
+        <h2 class="fw-bold">Fakhir</h2>
+        <p>HR/PROJECT MANAGER.</p>
       </div>
-      <div class="col-md-3 text-center justify-content-around">
-        <img src="modris.jpg" class="bd-placeholder-img rounded-circle img-fluid" width="160" height="160" role="img" aria-label="Placeholder" alt="Gaming">
-        <h2 class="fw-bold">Modris Ignats</h2>
-        <p>RESOURCE MANAGER</p>
+      <div class="col-md-3 text-center">
+        <img src="modris.jpg" class="bd-placeholder-img rounded-circle img-fluid" width="140" height="140" role="img" aria-label="Placeholder" alt="Gaming">
+        <h2 class="fw-bold">Modris</h2>
+        <p>RESOURCE MANAGER.</p>
       </div>
-      <div class="col-md-3 text-center justify-content-around">
-        <img src="victoria.jpg" class="bd-placeholder-img rounded-circle img-fluid" width="160" height="160" role="img" aria-label="Placeholder" alt="Gaming">
-        <h2 class="fw-bold">Viktoria</h2>
-        <p>RESEARCH MANAGER</p>
+      <div class="col-md-3 text-center">
+        <img src="victoria.jpg" class="bd-placeholder-img rounded-circle img-fluid" width="140" height="140" role="img" aria-label="Placeholder" alt="Gaming">
+        <h2 class="fw-bold">Viktoriia</h2>
+        <p>RESEARCH MANAGER.</p>
       </div>
-      <div class="col-md-3 text-center justify-content-around">
-        <img src="haris.jpg" class="bd-placeholder-img rounded-circle img-fluid" width="160" height="160" role="img" aria-label="Placeholder" alt="Gaming">
-        <h2 class="fw-bold">Haris Hassan</h2>
+      <div class="col-md-3 text-center">
+        <img src="haris.jpg" class="bd-placeholder-img rounded-circle img-fluid" width="140" height="140" role="img" aria-label="Placeholder" alt="Gaming">
+        <h2 class="fw-bold">Haris</h2>
         <p>DIRECTOR/TEAM LEAD</p>
       </div>
     </div>
   </div>
-
-
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
 </html>
