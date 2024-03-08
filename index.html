@@ -27,7 +27,18 @@
       .cover{
         padding: 350px;
       }
+      html {
+      scroll-behavior: smooth;
+      }
+      .btn{
+        font-size: 35px;
+        margin-top: 200px;
+      }
+      .title{
+        font-size: 72px;
+      }
   </style>
+  
 </head>
 <body>
 <!--Navbar-->
@@ -66,10 +77,11 @@
   </div>
 </nav>
 <div class="cover text-center">
-  <h1>Web 3.0</h1>
-  <p><a class="btn btn-secondary" href="decentralisation.html">Initialise</a></p>
+  <h1 class="title">Web 3.0</h1>
+  <p><a class="btn btn-secondary" href="#main">Initialise</a></p>
 </div>
 <!--Hero-->
+<section id="main">
 <div class="px-4 pt-5 my-5 text-center border-bottom">
   <h1 class="display-4 fw-bold text-body-emphasis">Web 3.0</h1>
   <h1 class="display-4 text-body-emphasis">Unleashing the Power of Web3</h1>
@@ -170,6 +182,7 @@
     </div>
   </div>
 </div>
+</section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
